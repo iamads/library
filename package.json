@@ -10,10 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongodb": "^2.1.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-nodemon": "^2.0.6",
+    "nodemon": "^1.8.1",
     "wiredep": "^3.0.0"
   }
 }
